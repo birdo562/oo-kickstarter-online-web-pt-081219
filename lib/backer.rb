@@ -5,5 +5,5 @@ class Backer
     @backed_projects = []
 end
 back_project(project)
-
+@backed_projects << project
 end
